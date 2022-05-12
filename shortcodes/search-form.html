@@ -1,0 +1,22 @@
+
+<form  id="vendor-product-search-form" role="form" method="get" >
+    <div class="input-group">
+        NONCE_FIELD_PH
+        <input minlength="3" type="text" name="vendor-product-search" id="vendor-product-search" class="form-control" placeholder="Search for Products and Vendors">
+        <div class="input-group-append">
+            <select class="form-select" name="search-type" id="search-type" aria-label="Default select example">
+    
+                <option value="Product">Product</option>
+                <option value="Vendor">Vendor</option>
+            </select>
+            <button style="display: none;" type="" style="width:150% ;" class="btn btn-primary" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+            view_all
+           
+        </div>
+    
+    </div>
+    
+</form>
+<div id="search-results" style="margin: 5% 0%;" class="row" ></div>
